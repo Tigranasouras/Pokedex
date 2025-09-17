@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Pokedex</string>
+    <string name="poke_tracker">Poke - Tracker</string>
+    <string name="register_new_catch">Register new catch</string>
+    <string name="save">Save</string>
+    <string name="reset">Reset</string>
 </resources>

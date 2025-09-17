@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="name" type="id" />
+    <item name="defense" type="id" />
+    <item name="attack" type="id" />
+    <item name="hp" type="id" />
+    <item name="basestats" type="id" />
+    <item name="level" type="id" />
+    <item name="weight" type="id" />
+    <item name="height" type="id" />
+    <item name="gender" type="id" />
+    <item name="species" type="id" />
+    <item name="nameInput" type="id" />
+    <item name="nationalNumber" type="id" />
+    <item name="nationalinput" type="id" />
+</resources>
