@@ -354,6 +354,35 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/a3_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/button4">
+    <Button
+        android:id="@+id/btn_open_form"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Add Pokémon" />
+
+    <Space
+        android:layout_width="8dp"
+        android:layout_height="0dp" />
+
+    <Button
+        android:id="@+id/btn_open_list"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="View DB" />
+    </LinearLayout>
+
+
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
@@ -373,4 +402,6 @@
         android:text="Save"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

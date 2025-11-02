@@ -80,6 +80,12 @@ public class MainActivity extends AppCompatActivity {
                 validateAndSave();
             }
         });
+
+        findViewById(R.id.btn_open_form).setOnClickListener(v ->
+                startActivity(new android.content.Intent(this, FormActivity.class)));
+
+        findViewById(R.id.btn_open_list).setOnClickListener(v ->
+                startActivity(new android.content.Intent(this, DbListActivity.class)));
     }
 
     private void setDefaults() {
@@ -239,4 +245,6 @@ public class MainActivity extends AppCompatActivity {
             return null;
         }
     }
+
+
 }
